@@ -1,0 +1,15 @@
+ul{
+    list-style: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+    @media (max-width:675px) {
+         ul{
+            flex-direction: column;
+        }
+         li {
+        margin: .5em 0;
+    }
+        }
